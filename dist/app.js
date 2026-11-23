@@ -4,10 +4,12 @@ function read(k,f){try{return JSON.parse(localStorage.getItem(k))||f}catch{retur
 let bag=read('dycem-bag-v2',[]),requests=read('dycem-requests',[]),category='All Apparel',gender='All',fabric=null,selection={},lastFocus;const cardColors={};
 function persist(){try{localStorage.setItem('dycem-bag-v2',JSON.stringify(bag));localStorage.setItem('dycem-requests',JSON.stringify(requests));return true}catch{return false}}
 function dcLogoAsset(color){return `assets/dycem-dc-${color==='black'?'white':'dark'}.png`}
-function garment(p,color,logo='dycem',ink='red'){
- const pos=p.logoPosition,position=`left:${pos.x}%;top:${pos.y}%;width:${pos.w}%;height:${pos.w*.36}%`;
+function garment(p,color,logo='dycem',ink='red',showLogo=true){
+ const pos=p.logoPosition,ratio=p.imageAspectRatio||1;
+ const position=`left:${pos.x}%;top:${pos.y}%;width:${pos.w}%`;
+ const frame=`width:${Math.min(1,ratio)*100}%;height:${Math.min(1,1/ratio)*100}%`;
  const artwork=logo==='dc'?`<span class="garment-logo dc-logo-artwork" style="${position}"><img src="${dcLogoAsset(color)}" alt="Full-color Dycem Data Centers logo, ${color==='black'?'white':'dark'} lettering, wearer's left chest"></span>`:`<span class="garment-logo logo-mask ${ink}" style="${position}" role="img" aria-label="Dycem logo in ${ink}, wearer's left chest"></span>`;
- return `<div class="product-image" data-kind="${p.id}"><img src="assets/${p.id}-${color}.${p.imageExtension||'png'}" alt="${esc(p.brand+' '+p.name)}, ${color} fabric" loading="lazy">${artwork}</div>`
+ return `<div class="product-image" data-kind="${p.id}"><div class="garment-photo" style="${frame}"><img src="assets/${p.id}-${color}.${p.imageExtension||'png'}" alt="${esc(p.brand+' '+p.name)}, ${color} fabric" loading="lazy">${showLogo?artwork:''}</div></div>`
 }
 
 function renderCatalog(){
@@ -18,7 +20,7 @@ function renderCatalog(){
  const q=$('#search').value.toLowerCase();let list=products.filter(p=>(category==='All Apparel'||p.category===category)&&matchesFit(p)&&(p.brand+' '+p.name+' '+p.code).toLowerCase().includes(q));
  if($('#sort').value!=='featured')list.sort((a,b)=>a.name.localeCompare(b.name)*($('#sort').value==='az'?1:-1));
  $('#resultCount').textContent=list.length;$('#fitCaption').textContent=gender==='All'?" / Men's & women's collection":` / ${gender==='Men'?"Men's":"Women's"} collection`;
- $('#grid').innerHTML=list.length?list.map(p=>{const c=fabric||cardColors[p.id]||p.defaultColor;return `<article class="product-card"><button class="product-open" data-product="${p.id}" aria-label="View ${esc(p.name)}">${garment(p,c)}<span class="view-label">View product</span><div class="product-info"><span class="tag">${esc(p.type)}</span><h3>${esc(p.name)}</h3><p>${p.gender==='Men'?"Men's":"Women's"} · ${p.sizeRange}</p></div></button><div class="swatches">${p.colors.map(x=>`<button class="swatch ${c===x.value?'selected':''}" data-swatch="${p.id}" data-color="${x.value}" aria-label="${esc(p.name)} in ${x.name}" aria-pressed="${c===x.value}"><i class="dot ${x.value}"></i></button>`).join('')}<span class="swatch-caption">${p.colors.length===1?'Black only':'Black / White'}</span></div></article>`}).join(''):'<div class="empty"><h3>No matching products</h3><p>Try a different fit, color, or department.</p><button class="secondary" id="resetSearch">Clear filters</button></div>';
+ $('#grid').innerHTML=list.length?list.map(p=>{const c=fabric||cardColors[p.id]||p.defaultColor;return `<article class="product-card"><button class="product-open" data-product="${p.id}" aria-label="View ${esc(p.name)}">${garment(p,c,'dycem','red',false)}<span class="view-label">View product</span><div class="product-info"><span class="tag">${esc(p.type)}</span><h3>${esc(p.name)}</h3><p>${p.gender==='Men'?"Men's":"Women's"} · ${p.sizeRange}</p></div></button><div class="swatches">${p.colors.map(x=>`<button class="swatch ${c===x.value?'selected':''}" data-swatch="${p.id}" data-color="${x.value}" aria-label="${esc(p.name)} in ${x.name}" aria-pressed="${c===x.value}"><i class="dot ${x.value}"></i></button>`).join('')}<span class="swatch-caption">${p.colors.length===1?'Black only':'Black / White'}</span></div></article>`}).join(''):'<div class="empty"><h3>No matching products</h3><p>Try a different fit, color, or department.</p><button class="secondary" id="resetSearch">Clear filters</button></div>';
  document.querySelectorAll('.color-filter').forEach(b=>b.setAttribute('aria-pressed',b.dataset.color===fabric));$('#fitFilter').value=gender;
 }
 

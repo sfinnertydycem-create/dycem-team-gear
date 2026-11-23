@@ -66,8 +66,8 @@ const products = [
     "defaultColor": "black",
     "imageExtension": "jpg",
     "logoPosition": {
-      "x": 57,
-      "y": 31,
+      "x": 64,
+      "y": 33,
       "w": 13
     },
     "imageSources": [
@@ -95,7 +95,8 @@ const products = [
       "Rental-friendly"
     ],
     "type": "Sport-Tek · ST650",
-    "sizeRange": "XS–6XL"
+    "sizeRange": "XS–6XL",
+    "imageAspectRatio": 0.66712707
   },
   {
     "id": "sm-lst650",
@@ -169,9 +170,9 @@ const products = [
     "defaultColor": "black",
     "imageExtension": "jpg",
     "logoPosition": {
-      "x": 57,
-      "y": 31,
-      "w": 13
+      "x": 63,
+      "y": 33,
+      "w": 12
     },
     "imageSources": [
       {
@@ -198,7 +199,8 @@ const products = [
       "Rental-friendly"
     ],
     "type": "Sport-Tek · LST650",
-    "sizeRange": "XS–4XL"
+    "sizeRange": "XS–4XL",
+    "imageAspectRatio": 0.66712707
   },
   {
     "id": "sm-k540",
@@ -267,8 +269,8 @@ const products = [
     "defaultColor": "black",
     "imageExtension": "jpg",
     "logoPosition": {
-      "x": 57,
-      "y": 31,
+      "x": 63,
+      "y": 29,
       "w": 13
     },
     "imageSources": [
@@ -290,7 +292,8 @@ const products = [
       "Double-needle sleeve cuffs and hem"
     ],
     "type": "Port Authority · K540",
-    "sizeRange": "XS–6XL"
+    "sizeRange": "XS–6XL",
+    "imageAspectRatio": 0.66712707
   },
   {
     "id": "sm-l540",
@@ -364,9 +367,9 @@ const products = [
     "defaultColor": "black",
     "imageExtension": "jpg",
     "logoPosition": {
-      "x": 57,
-      "y": 31,
-      "w": 13
+      "x": 64,
+      "y": 29,
+      "w": 12
     },
     "imageSources": [
       {
@@ -386,7 +389,8 @@ const products = [
       "Open hem sleeves"
     ],
     "type": "Port Authority · L540",
-    "sizeRange": "XS–4XL"
+    "sizeRange": "XS–4XL",
+    "imageAspectRatio": 0.66712707
   },
   {
     "id": "sm-nkdc1963",
@@ -449,7 +453,7 @@ const products = [
     "defaultColor": "black",
     "imageExtension": "jpg",
     "logoPosition": {
-      "x": 57,
+      "x": 63,
       "y": 31,
       "w": 13
     },
@@ -475,7 +479,8 @@ const products = [
       "Tall sizes available in select colors: Anthracite, Black, Cool Grey, Game Royal, Gym Blue, Navy, University Red, Valor Blue, White"
     ],
     "type": "Nike · NKDC1963",
-    "sizeRange": "XS–4XL"
+    "sizeRange": "XS–4XL",
+    "imageAspectRatio": 0.66712707
   },
   {
     "id": "sm-nkdc1991",
@@ -537,9 +542,9 @@ const products = [
     "defaultColor": "black",
     "imageExtension": "jpg",
     "logoPosition": {
-      "x": 57,
+      "x": 64,
       "y": 31,
-      "w": 13
+      "w": 12
     },
     "imageSources": [
       {
@@ -563,7 +568,8 @@ const products = [
       "Contrast embroidered Swoosh logo on left sleeve"
     ],
     "type": "Nike · NKDC1991",
-    "sizeRange": "S–2XL"
+    "sizeRange": "S–2XL",
+    "imageAspectRatio": 0.66712707
   },
   {
     "id": "sm-a4n3142",
@@ -626,8 +632,8 @@ const products = [
     "defaultColor": "black",
     "imageExtension": "jpg",
     "logoPosition": {
-      "x": 57,
-      "y": 31,
+      "x": 63,
+      "y": 25,
       "w": 13
     },
     "imageSources": [
@@ -652,7 +658,8 @@ const products = [
       "Tag-free label"
     ],
     "type": "A4 · A4N3142",
-    "sizeRange": "XS–4XL"
+    "sizeRange": "XS–4XL",
+    "imageAspectRatio": 0.66712707
   },
   {
     "id": "sm-a4n3402",
@@ -715,8 +722,8 @@ const products = [
     "defaultColor": "black",
     "imageExtension": "jpg",
     "logoPosition": {
-      "x": 57,
-      "y": 31,
+      "x": 63,
+      "y": 26,
       "w": 13
     },
     "imageSources": [
@@ -739,7 +746,8 @@ const products = [
       "Tear-away label"
     ],
     "type": "A4 · A4N3402",
-    "sizeRange": "XS–4XL"
+    "sizeRange": "XS–4XL",
+    "imageAspectRatio": 0.66712707
   },
   {
     "id": "sm-a4nw3201",
@@ -796,9 +804,9 @@ const products = [
     "defaultColor": "black",
     "imageExtension": "jpg",
     "logoPosition": {
-      "x": 57,
-      "y": 31,
-      "w": 13
+      "x": 63,
+      "y": 27,
+      "w": 12
     },
     "imageSources": [
       {
@@ -822,7 +830,8 @@ const products = [
       "Tag-free label"
     ],
     "type": "A4 · A4NW3201",
-    "sizeRange": "XS–2XL"
+    "sizeRange": "XS–2XL",
+    "imageAspectRatio": 0.66712707
   },
   {
     "id": "racermesh-women",
@@ -896,9 +905,9 @@ const products = [
     "defaultColor": "black",
     "imageExtension": "jpg",
     "logoPosition": {
-      "x": 57,
-      "y": 31,
-      "w": 13
+      "x": 64,
+      "y": 39,
+      "w": 12
     },
     "imageSources": [
       {
@@ -917,7 +926,8 @@ const products = [
       "Set-in sleeves"
     ],
     "type": "Sport-Tek · LST340",
-    "sizeRange": "XS–4XL"
+    "sizeRange": "XS–4XL",
+    "imageAspectRatio": 0.66712707
   },
   {
     "id": "sm-st254",
@@ -975,9 +985,9 @@ const products = [
     "defaultColor": "black",
     "imageExtension": "jpg",
     "logoPosition": {
-      "x": 57,
-      "y": 31,
-      "w": 13
+      "x": 60,
+      "y": 36,
+      "w": 12
     },
     "imageSources": [
       {
@@ -994,7 +1004,8 @@ const products = [
       "Front pouch pocket"
     ],
     "type": "Sport-Tek · ST254",
-    "sizeRange": "XS–4XL"
+    "sizeRange": "XS–4XL",
+    "imageAspectRatio": 0.66712707
   },
   {
     "id": "sm-lst254",
@@ -1063,9 +1074,9 @@ const products = [
     "defaultColor": "black",
     "imageExtension": "jpg",
     "logoPosition": {
-      "x": 57,
-      "y": 31,
-      "w": 13
+      "x": 60,
+      "y": 37,
+      "w": 11
     },
     "imageSources": [
       {
@@ -1083,7 +1094,8 @@ const products = [
       "Front pouch pocket"
     ],
     "type": "Sport-Tek · LST254",
-    "sizeRange": "XS–4XL"
+    "sizeRange": "XS–4XL",
+    "imageAspectRatio": 0.66712707
   },
   {
     "id": "sm-nkdr1499",
@@ -1146,8 +1158,8 @@ const products = [
     "defaultColor": "black",
     "imageExtension": "jpg",
     "logoPosition": {
-      "x": 57,
-      "y": 31,
+      "x": 64,
+      "y": 38,
       "w": 13
     },
     "imageSources": [
@@ -1168,7 +1180,8 @@ const products = [
       "Contrast embroidered Swoosh logo on left sleeve"
     ],
     "type": "Nike · NKDR1499",
-    "sizeRange": "XS–4XL"
+    "sizeRange": "XS–4XL",
+    "imageAspectRatio": 0.66712707
   },
   {
     "id": "sm-st850",
@@ -1231,9 +1244,9 @@ const products = [
     "defaultColor": "black",
     "imageExtension": "jpg",
     "logoPosition": {
-      "x": 57,
-      "y": 31,
-      "w": 13
+      "x": 63,
+      "y": 30,
+      "w": 12
     },
     "imageSources": [
       {
@@ -1256,7 +1269,8 @@ const products = [
       "Open cuffs and hem"
     ],
     "type": "Sport-Tek · ST850",
-    "sizeRange": "XS–4XL"
+    "sizeRange": "XS–4XL",
+    "imageAspectRatio": 0.66712707
   },
   {
     "id": "sm-lst850",
@@ -1330,9 +1344,9 @@ const products = [
     "defaultColor": "black",
     "imageExtension": "jpg",
     "logoPosition": {
-      "x": 57,
-      "y": 31,
-      "w": 13
+      "x": 63,
+      "y": 33,
+      "w": 11
     },
     "imageSources": [
       {
@@ -1357,7 +1371,8 @@ const products = [
       "Open cuffs and hem"
     ],
     "type": "Sport-Tek · LST850",
-    "sizeRange": "XS–4XL"
+    "sizeRange": "XS–4XL",
+    "imageAspectRatio": 0.66712707
   },
   {
     "id": "sm-st253",
@@ -1420,9 +1435,9 @@ const products = [
     "defaultColor": "black",
     "imageExtension": "jpg",
     "logoPosition": {
-      "x": 57,
-      "y": 31,
-      "w": 13
+      "x": 64,
+      "y": 37,
+      "w": 12
     },
     "imageSources": [
       {
@@ -1440,7 +1455,8 @@ const products = [
       "2x2 rib knit cuffs and hem with spandex"
     ],
     "type": "Sport-Tek · ST253",
-    "sizeRange": "XS–4XL"
+    "sizeRange": "XS–4XL",
+    "imageAspectRatio": 0.66712707
   },
   {
     "id": "sm-lst253",
@@ -1514,9 +1530,9 @@ const products = [
     "defaultColor": "black",
     "imageExtension": "jpg",
     "logoPosition": {
-      "x": 57,
-      "y": 31,
-      "w": 13
+      "x": 63,
+      "y": 33,
+      "w": 12
     },
     "imageSources": [
       {
@@ -1535,7 +1551,8 @@ const products = [
       "Open hem"
     ],
     "type": "Sport-Tek · LST253",
-    "sizeRange": "XS–4XL"
+    "sizeRange": "XS–4XL",
+    "imageAspectRatio": 0.66712707
   },
   {
     "id": "sm-j317",
@@ -1599,7 +1616,7 @@ const products = [
     "defaultColor": "black",
     "imageExtension": "jpg",
     "logoPosition": {
-      "x": 57,
+      "x": 64,
       "y": 31,
       "w": 13
     },
@@ -1622,7 +1639,8 @@ const products = [
       "Rental-friendly"
     ],
     "type": "Port Authority · J317",
-    "sizeRange": "XS–6XL"
+    "sizeRange": "XS–6XL",
+    "imageAspectRatio": 0.66712707
   },
   {
     "id": "sm-l317",
@@ -1691,9 +1709,9 @@ const products = [
     "defaultColor": "black",
     "imageExtension": "jpg",
     "logoPosition": {
-      "x": 57,
-      "y": 31,
-      "w": 13
+      "x": 63,
+      "y": 32,
+      "w": 12
     },
     "imageSources": [
       {
@@ -1714,7 +1732,8 @@ const products = [
       "Rental-friendly"
     ],
     "type": "Port Authority · L317",
-    "sizeRange": "XS–4XL"
+    "sizeRange": "XS–4XL",
+    "imageAspectRatio": 0.66712707
   },
   {
     "id": "sm-j903",
@@ -1772,9 +1791,9 @@ const products = [
     "defaultColor": "black",
     "imageExtension": "jpg",
     "logoPosition": {
-      "x": 57,
-      "y": 31,
-      "w": 13
+      "x": 66,
+      "y": 33,
+      "w": 14
     },
     "imageSources": [
       {
@@ -1794,7 +1813,8 @@ const products = [
       "Port Pocket ™ for decoration access"
     ],
     "type": "Port Authority · J903",
-    "sizeRange": "XS–4XL"
+    "sizeRange": "XS–4XL",
+    "imageAspectRatio": 0.66712707
   },
   {
     "id": "sm-l903",
@@ -1868,9 +1888,9 @@ const products = [
     "defaultColor": "black",
     "imageExtension": "jpg",
     "logoPosition": {
-      "x": 57,
-      "y": 31,
-      "w": 13
+      "x": 64,
+      "y": 33,
+      "w": 12
     },
     "imageSources": [
       {
@@ -1896,7 +1916,8 @@ const products = [
       "Tulip hem"
     ],
     "type": "Port Authority · L903",
-    "sizeRange": "XS–4XL"
+    "sizeRange": "XS–4XL",
+    "imageAspectRatio": 0.66712707
   },
   {
     "id": "sm-w100",
@@ -1981,9 +2002,9 @@ const products = [
     "defaultColor": "black",
     "imageExtension": "jpg",
     "logoPosition": {
-      "x": 57,
-      "y": 31,
-      "w": 13
+      "x": 64,
+      "y": 33,
+      "w": 12
     },
     "imageSources": [
       {
@@ -2007,7 +2028,8 @@ const products = [
       "Rounded adjustable cuffs"
     ],
     "type": "Port Authority · W100",
-    "sizeRange": "XS–4XL"
+    "sizeRange": "XS–4XL",
+    "imageAspectRatio": 0.66712707
   },
   {
     "id": "sm-lw100",
@@ -2092,9 +2114,9 @@ const products = [
     "defaultColor": "black",
     "imageExtension": "jpg",
     "logoPosition": {
-      "x": 57,
-      "y": 31,
-      "w": 13
+      "x": 64,
+      "y": 32,
+      "w": 12
     },
     "imageSources": [
       {
@@ -2118,7 +2140,8 @@ const products = [
       "Rounded adjustable cuffs"
     ],
     "type": "Port Authority · LW100",
-    "sizeRange": "XS–4XL"
+    "sizeRange": "XS–4XL",
+    "imageAspectRatio": 0.66712707
   },
   {
     "id": "sm-mm2015",
@@ -2187,9 +2210,9 @@ const products = [
     "defaultColor": "black",
     "imageExtension": "jpg",
     "logoPosition": {
-      "x": 57,
-      "y": 31,
-      "w": 13
+      "x": 63,
+      "y": 30,
+      "w": 12
     },
     "imageSources": [
       {
@@ -2205,7 +2228,8 @@ const products = [
     ],
     "type": "Mercer+Mettle · MM2015",
     "sizeRange": "XS–4XL",
-    "colorNote": "Available here in black. The supplier’s light option is ivory, so it is not included in this black-and-white collection."
+    "colorNote": "Available here in black. The supplier’s light option is ivory, so it is not included in this black-and-white collection.",
+    "imageAspectRatio": 0.66712707
   },
   {
     "id": "sm-mm2013",
@@ -2274,9 +2298,9 @@ const products = [
     "defaultColor": "black",
     "imageExtension": "jpg",
     "logoPosition": {
-      "x": 57,
+      "x": 64,
       "y": 31,
-      "w": 13
+      "w": 12
     },
     "imageSources": [
       {
@@ -2294,7 +2318,8 @@ const products = [
     ],
     "type": "Mercer+Mettle · MM2013",
     "sizeRange": "XS–4XL",
-    "colorNote": "Available here in black. The supplier’s light option is ivory, so it is not included in this black-and-white collection."
+    "colorNote": "Available here in black. The supplier’s light option is ivory, so it is not included in this black-and-white collection.",
+    "imageAspectRatio": 0.66712707
   },
   {
     "id": "tech-sport",
@@ -2354,9 +2379,9 @@ const products = [
     "defaultColor": "black",
     "category": "Polos",
     "logoPosition": {
-      "x": 56.5,
-      "y": 31.175,
-      "w": 12.25
+      "x": 64,
+      "y": 35,
+      "w": 14
     },
     "imageSources": [
       {
@@ -2376,7 +2401,8 @@ const products = [
       "Contrasting embroidered Nike Swoosh on the left sleeve"
     ],
     "type": "Nike · 266998",
-    "sizeRange": "XS–4XL"
+    "sizeRange": "XS–4XL",
+    "imageAspectRatio": 1.0
   },
   {
     "id": "framework-women",
@@ -2442,9 +2468,9 @@ const products = [
     "defaultColor": "black",
     "category": "Polos",
     "logoPosition": {
-      "x": 58.75,
-      "y": 32.475,
-      "w": 10.75
+      "x": 64,
+      "y": 37,
+      "w": 12
     },
     "imageSources": [
       {
@@ -2462,7 +2488,8 @@ const products = [
       "Woven OGIO badge at the hem"
     ],
     "type": "OGIO · LOG125",
-    "sizeRange": "XS–4XL"
+    "sizeRange": "XS–4XL",
+    "imageAspectRatio": 1.0
   },
   {
     "id": "hybrid",
@@ -2517,9 +2544,9 @@ const products = [
     "defaultColor": "black",
     "category": "Polos",
     "logoPosition": {
-      "x": 57.75,
-      "y": 28.725,
-      "w": 13.25
+      "x": 65,
+      "y": 34,
+      "w": 13
     },
     "imageSources": [
       {
@@ -2537,7 +2564,8 @@ const products = [
       "Pique OGIO heat transfer at center back; woven badge at the hem"
     ],
     "type": "OGIO · OG109",
-    "sizeRange": "XS–4XL"
+    "sizeRange": "XS–4XL",
+    "imageAspectRatio": 1.0
   },
   {
     "id": "legacy-women",
@@ -2591,9 +2619,9 @@ const products = [
     "defaultColor": "black",
     "category": "Polos",
     "logoPosition": {
-      "x": 56.5,
-      "y": 30.75,
-      "w": 12.5
+      "x": 64,
+      "y": 34,
+      "w": 12
     },
     "imageSources": [
       {
@@ -2608,7 +2636,8 @@ const products = [
       "Contrasting heat-transfer Nike Swoosh on the left sleeve"
     ],
     "type": "Nike · 838957",
-    "sizeRange": "S–2XL"
+    "sizeRange": "S–2XL",
+    "imageAspectRatio": 1.0
   },
   {
     "id": "legacy",
@@ -2663,9 +2692,9 @@ const products = [
     "defaultColor": "black",
     "category": "Polos",
     "logoPosition": {
-      "x": 55.75,
-      "y": 28.75,
-      "w": 12.5
+      "x": 64,
+      "y": 34,
+      "w": 13
     },
     "imageSources": [
       {
@@ -2681,7 +2710,8 @@ const products = [
       "Contrasting heat-transfer Nike Swoosh on the left sleeve"
     ],
     "type": "Nike · 883681",
-    "sizeRange": "XS–4XL"
+    "sizeRange": "XS–4XL",
+    "imageAspectRatio": 1.0
   },
   {
     "id": "players",
@@ -2741,9 +2771,9 @@ const products = [
     "defaultColor": "white",
     "category": "Polos",
     "logoPosition": {
-      "x": 54.75,
-      "y": 28.5,
-      "w": 12.5
+      "x": 64,
+      "y": 34,
+      "w": 13
     },
     "imageSources": [
       {
@@ -2763,6 +2793,7 @@ const products = [
       "Contrasting heat-transfer Nike Swoosh on the left sleeve"
     ],
     "type": "Nike · 838956",
-    "sizeRange": "XS–4XL"
+    "sizeRange": "XS–4XL",
+    "imageAspectRatio": 1.0
   }
 ];
